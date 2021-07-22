@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A81AACAD26A34F72008AFA3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81AACAC26A34F72008AFA3B /* AppDelegate.swift */; };
+		A81AACAF26A34F72008AFA3B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81AACAE26A34F72008AFA3B /* SceneDelegate.swift */; };
+		A81AACB126A34F72008AFA3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81AACB026A34F72008AFA3B /* ViewController.swift */; };
+		A81AACB426A34F72008AFA3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A81AACB226A34F72008AFA3B /* Main.storyboard */; };
+		A81AACB726A34F72008AFA3B /* estee_lauder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A81AACB526A34F72008AFA3B /* estee_lauder.xcdatamodeld */; };
+		A81AACB926A34F73008AFA3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A81AACB826A34F73008AFA3B /* Assets.xcassets */; };
+		A81AACBC26A34F73008AFA3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A81AACBA26A34F73008AFA3B /* LaunchScreen.storyboard */; };
+		A81AACC726A34F73008AFA3B /* estee_lauderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81AACC626A34F73008AFA3B /* estee_lauderTests.swift */; };
+		A81AACD226A34F73008AFA3B /* estee_lauderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81AACD126A34F73008AFA3B /* estee_lauderUITests.swift */; };
+		A88435A526A875C3009F35E7 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88435A426A875C3009F35E7 /* ViewController2.swift */; };
+		A88435A726A875D2009F35E7 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88435A626A875D2009F35E7 /* ViewController3.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A81AACC326A34F73008AFA3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A81AACA126A34F72008AFA3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A81AACA826A34F72008AFA3B;
+			remoteInfo = "estee lauder";
+		};
+		A81AACCE26A34F73008AFA3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A81AACA126A34F72008AFA3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A81AACA826A34F72008AFA3B;
+			remoteInfo = "estee lauder";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A81AACA926A34F72008AFA3B /* estee lauder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "estee lauder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A81AACAC26A34F72008AFA3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A81AACAE26A34F72008AFA3B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A81AACB026A34F72008AFA3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A81AACB326A34F72008AFA3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A81AACB626A34F72008AFA3B /* estee_lauder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = estee_lauder.xcdatamodel; sourceTree = "<group>"; };
+		A81AACB826A34F73008AFA3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A81AACBB26A34F73008AFA3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A81AACBD26A34F73008AFA3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A81AACC226A34F73008AFA3B /* estee lauderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "estee lauderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A81AACC626A34F73008AFA3B /* estee_lauderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = estee_lauderTests.swift; sourceTree = "<group>"; };
+		A81AACC826A34F73008AFA3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A81AACCD26A34F73008AFA3B /* estee lauderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "estee lauderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A81AACD126A34F73008AFA3B /* estee_lauderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = estee_lauderUITests.swift; sourceTree = "<group>"; };
+		A81AACD326A34F73008AFA3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A88435A426A875C3009F35E7 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		A88435A626A875D2009F35E7 /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A81AACA626A34F72008AFA3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A81AACBF26A34F73008AFA3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A81AACCA26A34F73008AFA3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A81AACA026A34F72008AFA3B = {
+			isa = PBXGroup;
+			children = (
+				A81AACAB26A34F72008AFA3B /* estee lauder */,
+				A81AACC526A34F73008AFA3B /* estee lauderTests */,
+				A81AACD026A34F73008AFA3B /* estee lauderUITests */,
+				A81AACAA26A34F72008AFA3B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A81AACAA26A34F72008AFA3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A81AACA926A34F72008AFA3B /* estee lauder.app */,
+				A81AACC226A34F73008AFA3B /* estee lauderTests.xctest */,
+				A81AACCD26A34F73008AFA3B /* estee lauderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A81AACAB26A34F72008AFA3B /* estee lauder */ = {
+			isa = PBXGroup;
+			children = (
+				A81AACAC26A34F72008AFA3B /* AppDelegate.swift */,
+				A81AACAE26A34F72008AFA3B /* SceneDelegate.swift */,
+				A81AACB026A34F72008AFA3B /* ViewController.swift */,
+				A88435A426A875C3009F35E7 /* ViewController2.swift */,
+				A88435A626A875D2009F35E7 /* ViewController3.swift */,
+				A81AACB226A34F72008AFA3B /* Main.storyboard */,
+				A81AACB826A34F73008AFA3B /* Assets.xcassets */,
+				A81AACBA26A34F73008AFA3B /* LaunchScreen.storyboard */,
+				A81AACBD26A34F73008AFA3B /* Info.plist */,
+				A81AACB526A34F72008AFA3B /* estee_lauder.xcdatamodeld */,
+			);
+			path = "estee lauder";
+			sourceTree = "<group>";
+		};
+		A81AACC526A34F73008AFA3B /* estee lauderTests */ = {
+			isa = PBXGroup;
+			children = (
+				A81AACC626A34F73008AFA3B /* estee_lauderTests.swift */,
+				A81AACC826A34F73008AFA3B /* Info.plist */,
+			);
+			path = "estee lauderTests";
+			sourceTree = "<group>";
+		};
+		A81AACD026A34F73008AFA3B /* estee lauderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A81AACD126A34F73008AFA3B /* estee_lauderUITests.swift */,
+				A81AACD326A34F73008AFA3B /* Info.plist */,
+			);
+			path = "estee lauderUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A81AACA826A34F72008AFA3B /* estee lauder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A81AACD626A34F73008AFA3B /* Build configuration list for PBXNativeTarget "estee lauder" */;
+			buildPhases = (
+				A81AACA526A34F72008AFA3B /* Sources */,
+				A81AACA626A34F72008AFA3B /* Frameworks */,
+				A81AACA726A34F72008AFA3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "estee lauder";
+			productName = "estee lauder";
+			productReference = A81AACA926A34F72008AFA3B /* estee lauder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A81AACC126A34F73008AFA3B /* estee lauderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A81AACD926A34F73008AFA3B /* Build configuration list for PBXNativeTarget "estee lauderTests" */;
+			buildPhases = (
+				A81AACBE26A34F73008AFA3B /* Sources */,
+				A81AACBF26A34F73008AFA3B /* Frameworks */,
+				A81AACC026A34F73008AFA3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A81AACC426A34F73008AFA3B /* PBXTargetDependency */,
+			);
+			name = "estee lauderTests";
+			productName = "estee lauderTests";
+			productReference = A81AACC226A34F73008AFA3B /* estee lauderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A81AACCC26A34F73008AFA3B /* estee lauderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A81AACDC26A34F73008AFA3B /* Build configuration list for PBXNativeTarget "estee lauderUITests" */;
+			buildPhases = (
+				A81AACC926A34F73008AFA3B /* Sources */,
+				A81AACCA26A34F73008AFA3B /* Frameworks */,
+				A81AACCB26A34F73008AFA3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A81AACCF26A34F73008AFA3B /* PBXTargetDependency */,
+			);
+			name = "estee lauderUITests";
+			productName = "estee lauderUITests";
+			productReference = A81AACCD26A34F73008AFA3B /* estee lauderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A81AACA126A34F72008AFA3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					A81AACA826A34F72008AFA3B = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					A81AACC126A34F73008AFA3B = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = A81AACA826A34F72008AFA3B;
+					};
+					A81AACCC26A34F73008AFA3B = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = A81AACA826A34F72008AFA3B;
+					};
+				};
+			};
+			buildConfigurationList = A81AACA426A34F72008AFA3B /* Build configuration list for PBXProject "estee lauder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A81AACA026A34F72008AFA3B;
+			productRefGroup = A81AACAA26A34F72008AFA3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A81AACA826A34F72008AFA3B /* estee lauder */,
+				A81AACC126A34F73008AFA3B /* estee lauderTests */,
+				A81AACCC26A34F73008AFA3B /* estee lauderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A81AACA726A34F72008AFA3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A81AACBC26A34F73008AFA3B /* LaunchScreen.storyboard in Resources */,
+				A81AACB926A34F73008AFA3B /* Assets.xcassets in Resources */,
+				A81AACB426A34F72008AFA3B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A81AACC026A34F73008AFA3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A81AACCB26A34F73008AFA3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A81AACA526A34F72008AFA3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A88435A526A875C3009F35E7 /* ViewController2.swift in Sources */,
+				A81AACB126A34F72008AFA3B /* ViewController.swift in Sources */,
+				A88435A726A875D2009F35E7 /* ViewController3.swift in Sources */,
+				A81AACAD26A34F72008AFA3B /* AppDelegate.swift in Sources */,
+				A81AACAF26A34F72008AFA3B /* SceneDelegate.swift in Sources */,
+				A81AACB726A34F72008AFA3B /* estee_lauder.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A81AACBE26A34F73008AFA3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A81AACC726A34F73008AFA3B /* estee_lauderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A81AACC926A34F73008AFA3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A81AACD226A34F73008AFA3B /* estee_lauderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A81AACC426A34F73008AFA3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A81AACA826A34F72008AFA3B /* estee lauder */;
+			targetProxy = A81AACC326A34F73008AFA3B /* PBXContainerItemProxy */;
+		};
+		A81AACCF26A34F73008AFA3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A81AACA826A34F72008AFA3B /* estee lauder */;
+			targetProxy = A81AACCE26A34F73008AFA3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A81AACB226A34F72008AFA3B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A81AACB326A34F72008AFA3B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A81AACBA26A34F73008AFA3B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A81AACBB26A34F73008AFA3B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A81AACD426A34F73008AFA3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A81AACD526A34F73008AFA3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A81AACD726A34F73008AFA3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "estee lauder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.estee-lauder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A81AACD826A34F73008AFA3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "estee lauder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.estee-lauder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A81AACDA26A34F73008AFA3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "estee lauderTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.estee-lauderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/estee lauder.app/estee lauder";
+			};
+			name = Debug;
+		};
+		A81AACDB26A34F73008AFA3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "estee lauderTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.estee-lauderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/estee lauder.app/estee lauder";
+			};
+			name = Release;
+		};
+		A81AACDD26A34F73008AFA3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "estee lauderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.estee-lauderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "estee lauder";
+			};
+			name = Debug;
+		};
+		A81AACDE26A34F73008AFA3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "estee lauderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.estee-lauderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "estee lauder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A81AACA426A34F72008AFA3B /* Build configuration list for PBXProject "estee lauder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A81AACD426A34F73008AFA3B /* Debug */,
+				A81AACD526A34F73008AFA3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A81AACD626A34F73008AFA3B /* Build configuration list for PBXNativeTarget "estee lauder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A81AACD726A34F73008AFA3B /* Debug */,
+				A81AACD826A34F73008AFA3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A81AACD926A34F73008AFA3B /* Build configuration list for PBXNativeTarget "estee lauderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A81AACDA26A34F73008AFA3B /* Debug */,
+				A81AACDB26A34F73008AFA3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A81AACDC26A34F73008AFA3B /* Build configuration list for PBXNativeTarget "estee lauderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A81AACDD26A34F73008AFA3B /* Debug */,
+				A81AACDE26A34F73008AFA3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A81AACB526A34F72008AFA3B /* estee_lauder.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A81AACB626A34F72008AFA3B /* estee_lauder.xcdatamodel */,
+			);
+			currentVersion = A81AACB626A34F72008AFA3B /* estee_lauder.xcdatamodel */;
+			path = estee_lauder.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A81AACA126A34F72008AFA3B /* Project object */;
+}
